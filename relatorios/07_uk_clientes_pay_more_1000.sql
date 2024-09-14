@@ -6,3 +6,6 @@ INNER JOIN order_details ON order_details.order_id = orders.order_id
 WHERE LOWER(customers.country) = 'uk'
 GROUP BY customers.contact_name
 HAVING SUM(order_details.unit_price * order_details.quantity * (1.0 - order_details.discount)) > 1000;
+
+
+--Quais clientes do Reino Unido pagaram mais de 1000 dólares?

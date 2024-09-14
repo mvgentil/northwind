@@ -11,3 +11,6 @@ GROUP BY
     customers.company_name
 ORDER BY 
     total DESC;
+
+
+--Qual é o valor total que cada cliente já pagou até agora?

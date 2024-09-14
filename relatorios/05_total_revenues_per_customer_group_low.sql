@@ -18,3 +18,6 @@ ORDER BY
 SELECT *
 FROM clientes_para_marketing
 WHERE group_number >= 3
+
+
+--Agora somente os clientes que estão nos grupos 3, 4 e 5 para que seja feita uma análise de Marketing especial com eles

@@ -12,3 +12,6 @@ GROUP BY
     customers.company_name
 ORDER BY 
     total DESC;
+
+
+--Separe os clientes em 5 grupos de acordo com o valor pago por cliente
